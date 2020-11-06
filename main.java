@@ -112,13 +112,13 @@ public class main extends JPanel implements ActionListener {
         List<Double> yfc;
 
         public CelestialBody(String namei, double massi, int xi, int yi, double xVelocityi, double yVelocityi, int radiusi) {
-            this.name = namei;
-            this.mass = massi;
-            this.x = xi;
-            this.y = yi;
-            this.xVelocity = xVelocityi;
-            this.yVelocity = yVelocityi;
-            this.radius = radiusi;
+            name = namei;
+            mass = massi;
+            x = xi;
+            y = yi;
+            xVelocity = xVelocityi;
+            yVelocity = yVelocityi;
+            radius = radiusi;
             xfc = new ArrayList<>(10);
             yfc = new ArrayList<>(10);
         }
